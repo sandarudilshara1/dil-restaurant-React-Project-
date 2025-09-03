@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: rgb(196, 210, 162);
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #e315c8;
+  color: rgb(255, 255, 255);
+  padding: 1rem 2rem;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+section {
+  padding: 2rem;
+}
+
+.food-gallery {
+  display: flex;
+  gap: 1rem;
+}
+
+.food-gallery img {
+  width: 200px;
+  border-radius: 8px;
+}
